@@ -85,13 +85,6 @@ body {
   left: -25px;
 }
 .box .square:nth-child(6) {
-  width: 85px;
-  height: 85px;
-  top: 165px;
-  right: -155px;
-  z-index: 2;
-}
-.box .square:nth-child(7) {
   width: 100px;
   height: 100px;
   top: 50px;
@@ -164,9 +157,4 @@ body {
 }
 .calculator .equal {
   background: rgba(255, 255, 255, 0.05);
-}
-
-body::before {
-  max-width: 75vw;
-  max-height: 75vh;
 }
